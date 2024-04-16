@@ -1,6 +1,6 @@
 import chess
 import chess.engine
-stockfish_location = "E:\\Chess\\stockfish_15.1_win_x64_avx2\\stockfish-windows-2022-x86-64-avx2.exe"
+stockfish_location = "PATH_TO_YOUR_STOCKFISH_ENGINE"
 engine = chess.engine.SimpleEngine.popen_uci(stockfish_location)
 chessboard = chess.Board()
 
